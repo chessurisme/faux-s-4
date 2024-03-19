@@ -49,6 +49,7 @@
     "dom-to-image": "^2.6.0",
     "eslint": "^8.56.0",
     "lucide": "^0.340.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "vercel": "^33.6.1"
   }
 }
