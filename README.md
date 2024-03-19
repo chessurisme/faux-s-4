@@ -35,7 +35,7 @@ Special thanks to the following projects and resources that made Form 2 Image po
 - [Jest](https://jestjs.io/) - Testing framework for ensuring the reliability of the codebase. 🃏
 - [Webpack](https://webpack.js.org/) - Efficient bundling of the application for production. 📦
 - [Noto Sans Font](https://www.google.com/get/noto/) - Elegant and readable font used in the project. 🅰
-- [Firebase](https://firebase.google.com/) - Cloud services that enhance the functionality of the application. 🔥
+- [Vercel](https://vercel.com/) - Cloud services that enhance the functionality of the application. 🔥
 
 ## License
 
