@@ -20,7 +20,7 @@
 
 ## Installation
 
-1. Go to this [webpage](https://www.jw-faux-s-4.web.app). 🤗
+1. Go to this [webpage](https://jw-faux-s-4.vercel.app). 🤗
 2. In floating card, tap on **Faux S-4**.
 3. If you didn't see a floating card, tap the three dots or More section of your browser.
 4. Find for **"Faux S-4"**
