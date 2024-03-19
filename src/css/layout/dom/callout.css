@@ -1,0 +1,27 @@
+.callout {
+  position: fixed;
+  bottom: 19px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+  z-index: 1990;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+  color: black;
+}
+
+.callout-error {
+  background-color: var(--warning);
+}
+
+.callout .text {
+  justify-self: left;
+  width: 80%;
+}
+
+.callout .remove svg {
+  stroke: var(--text-color);
+}

@@ -1,0 +1,54 @@
+#privacy-and-concern-screen {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1999;
+}
+
+.message-row-pac {
+  .title {
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .message {
+    word-break: keep-all;
+    max-width: 30ch;
+  }
+}
+
+.button-pac {
+  display: flex;
+  background-color: var(--accent);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  svg {
+    stroke: black;
+  }
+
+  p {
+    color: black;
+    margin-left: 10px;
+  }
+}
+
+.button-pac:hover {
+  filter: brightness(0.9);
+  scale: 1.02;
+}
+
+.button-pac:active {
+  filter: brightness(1);
+  scale: 1;
+}

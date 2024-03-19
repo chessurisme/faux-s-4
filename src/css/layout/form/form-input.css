@@ -1,0 +1,75 @@
+.row,
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100dvw - 64px);
+  padding: 16px;
+  background-color: var(--subtle-2);
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.icon-row {
+  width: 20%;
+}
+
+.input {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: var(--subtle-1);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#name,
+#bible-study,
+#hours,
+#comments {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+}
+
+#name,
+#bible-study,
+#hours {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  color: var(--text-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  background: transparent;
+  border: transparent;
+  color: var(--text-color);
+  resize: none;
+}

@@ -1,0 +1,43 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: var(--accent);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .button-icon-wrapper {
+    display: flex;
+  }
+
+  svg {
+    stroke: black;
+  }
+
+  p {
+    color: black;
+    margin-left: 10px;
+  }
+}
+
+.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: var(--subtle-2);
+  cursor: pointer;
+}
+
+.button:hover,
+.icon-button:hover {
+  filter: brightness(0.9);
+}
+
+.button:active,
+.icon-button:active {
+  filter: brightness(1);
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;900&display=swap');
+
+#form {
+  font-family:
+    'Noto Sans TC',
+    'Noto Sans',
+    'Arial',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* Form Contents */
+#name-and-month-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#name-section,
+#month-section {
+  display: flex;
+
+  .input {
+    width: 100%;
+    border-bottom: black 0.5px dashed;
+  }
+}
+
+table,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: right;
+}
+
+.noneBorder {
+  border: 0px solid black;
+}
+
+#check {
+  font-weight: 900;
+  font-family: sans-serif;
+  border: black solid 1px;
+  display: inline-flex;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#table-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Text */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.heavy {
+  font-weight: 900;
+}
