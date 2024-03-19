@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+    />
+    <meta
+      name="description"
+      content="Input your Field Service Report and turn it into sendable image."
+    />
+    <meta
+      name="keywords"
+      content="PWA, Chessurisme, Form, form2img, Image, form 2 image, JW, S-4, Jehovah, Jehovah's Witnesses"
+    />
+    <meta name="author" content="Chessurisme" />
+    <title>Faux S-4 Form</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/icons/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/icons/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/icons/favicons/favicon-16x16.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/icons/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/icons/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/icons/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="./build/fonts.css" />
+    <script type="module" src="./build/bundle.min.js" defer></script>
+  </head>
+  <body data-theme="light">
+    <div id="main-container">
+      <header></header>
+      <main></main>
+      <footer></footer>
+    </div>
+  </body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js').then(
+          (registration) => {
+            console.log(
+              'Service Worker registration successful with scope',
+              registration.scope
+            )
+          },
+          (error) => {
+            console.log('Service Worker registration failed:', error)
+          }
+        )
+      })
+    }
+  </script>
+</html>
